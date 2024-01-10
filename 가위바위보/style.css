@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+}
+
+.button__sissor {
+  background-color: pink;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button__rock {
+  background-color: teal;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button__paper {
+  background-color: aqua;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: x-large;
+  margin-top: 10px;
+}
