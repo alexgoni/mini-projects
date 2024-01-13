@@ -1,0 +1,62 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.computer {
+  width: 50%;
+  height: 60%;
+  background-color: #151718;
+  border: 1px solid white;
+  color: green;
+  border-radius: 5px;
+  overflow-y: hidden;
+}
+
+.computer__header {
+  position: sticky;
+  top: 0;
+  background-color: #151718;
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+
+.computer__main {
+  font-family: "DS-Digital", sans-serif;
+  font-size: large;
+  padding: 10px;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.circle:nth-child(1) {
+  background-color: #fe5e5a;
+}
+
+.circle:nth-child(2) {
+  background-color: #fdba42;
+}
+
+.circle:nth-child(3) {
+  background-color: #40d55e;
+}
+
+.text--blink {
+  animation: blink 1s infinite;
+  font-size: large;
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
